@@ -20,3 +20,4 @@ Reading this as: corporate group landing page for learners, families, teams, and
 - Layout: desktop keeps the three service choices side by side; mobile changes the cards to compact image-and-copy rows for scanability.
 - Responsive floor: the page has no fixed minimum viewport width. Below 300 px, the header removes its secondary group action and each service card becomes one full-width vertical unit, preventing horizontal clipping in constrained device emulation.
 - Motion: menu, hover, and in-page navigation transitions stay subtle and respect reduced-motion preferences.
+- Mobile header: the brand and action controls do not shrink; the group CTA stays on one line, and the 44 px menu control centers its three strokes with flex spacing across narrow widths.

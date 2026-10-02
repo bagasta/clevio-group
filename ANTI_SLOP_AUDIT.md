@@ -80,3 +80,8 @@ Design read: corporate group landing page, grounded in user-supplied brand guide
 - R-24 PASS: service cards point to the user-specified Clevio AI Staff, AI Pro, and Innovator Camp destinations; social icons link to the accounts surfaced by Clevio's official site and official Clevio Camp link hub.
 - R-25 PASS: social links use consistent inline SVG marks, accessible names, and 44 px minimum targets in the footer.
 - R-31 PASS: the footer copyright year displays 2026.
+
+## Mobile Header Alignment
+
+- R-03 PASS: the header retains its logo, group action, and menu at 414 px, 360 px, and 320 px viewport widths without horizontal clipping.
+- R-25 PASS: the mobile menu keeps a 44 px touch target and centers its three strokes vertically and horizontally.

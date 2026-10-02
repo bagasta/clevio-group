@@ -102,9 +102,11 @@ button { font: inherit; }
   .primary-nav { position: absolute; inset: 78px 0 auto; flex-direction: column; gap: 4px; padding: 18px 24px 24px; transform: translateY(-130%); border-bottom: 1px solid var(--line); background: var(--white); transition: transform .2s ease; }
   .primary-nav.is-open { transform: translateY(0); }
   .primary-nav a { font-size: 14px; }
-  .header-actions { gap: 10px; }
-  .group-button { padding: 0 16px; font-size: 12px; }
-  .menu-button { display: block; }
+  .wordmark, .header-actions { flex-shrink: 0; }
+  .header-actions { gap: 8px; }
+  .group-button { gap: 10px; padding: 0 14px; white-space: nowrap; font-size: 12px; }
+  .menu-button { display: flex; width: 44px; height: 44px; flex: 0 0 44px; flex-direction: column; align-items: center; justify-content: center; gap: 5px; padding: 10px; }
+  .menu-button span { width: 24px; margin: 0; }
   .intro { padding: 32px 0 28px; background: radial-gradient(ellipse 34% 42% at -5% 15%, #e1e9f8 0 45%, transparent 46%), radial-gradient(ellipse 34% 42% at 106% 15%, #e1e9f8 0 45%, transparent 46%), var(--white); }
   .intro h1 { height: 68px; }
   .intro h1 img { width: min(288px, 80vw); }
@@ -144,6 +146,11 @@ button { font: inherit; }
   .wordmark img { width: 94px; }
   .header-actions { gap: 6px; }
   .group-button { gap: 8px; padding: 0 11px; white-space: nowrap; font-size: 11px; }
+}
+
+@media (max-width: 330px) {
+  .wordmark img { width: 88px; }
+  .group-button { gap: 6px; padding: 0 8px; font-size: 10px; }
 }
 
 @media (max-width: 300px) {
