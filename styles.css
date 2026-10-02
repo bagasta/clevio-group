@@ -80,8 +80,11 @@ button { font: inherit; }
 .wordmark-light { padding: 5px; border-radius: 6px; background: var(--white); }
 .wordmark-light img { width: 115px; }
 .footer-brand p { max-width: 190px; margin: 10px 0 14px; color: var(--white); font-size: 11px; line-height: 1.5; }
-.social-links { display: flex; gap: 9px; }
-.social-links a { display: grid; width: 30px; height: 30px; place-items: center; border: 1px solid rgb(255 255 255 / 38%); border-radius: 7px; color: var(--white); font-size: 13px; font-weight: 800; transition: background .18s ease, color .18s ease; }
+.social-links { display: flex; flex-wrap: wrap; gap: 9px; }
+.social-links a { display: grid; width: 44px; height: 44px; place-items: center; border: 1px solid rgb(255 255 255 / 38%); border-radius: 10px; color: var(--white); transition: background .18s ease, color .18s ease, border-color .18s ease; }
+.social-links svg { display: block; width: 21px; height: 21px; fill: currentColor; }
+.social-links svg rect, .social-links svg circle:not(.social-icon-dot) { fill: none; stroke: currentColor; stroke-width: 2; }
+.social-links svg .social-icon-dot { fill: currentColor; }
 .social-links a:hover { background: var(--brand-green); color: var(--black); }
 .footer-column { display: flex; flex-direction: column; gap: 7px; color: #f3f5fb; font-size: 12px; }
 .footer-column h2 { margin: 0 0 5px; color: var(--white); font-size: 12px; }

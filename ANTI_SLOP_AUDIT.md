@@ -74,3 +74,9 @@ Design read: corporate group landing page, grounded in user-supplied brand guide
 
 - R-25 PASS: the narrow layout uses the supplied black AI Pro and AI Staff mark variants on white copy surfaces; desktop preserves white marks over photography.
 - R-31 PASS: mobile action arrows use a fixed inline grid, unit line-height, and zero button padding so the glyph remains optically centered in every circular action.
+
+## Footer Destinations and Social Icons
+
+- R-24 PASS: service cards point to the user-specified Clevio AI Staff, AI Pro, and Innovator Camp destinations; social icons link to the accounts surfaced by Clevio's official site and official Clevio Camp link hub.
+- R-25 PASS: social links use consistent inline SVG marks, accessible names, and 44 px minimum targets in the footer.
+- R-31 PASS: the footer copyright year displays 2026.

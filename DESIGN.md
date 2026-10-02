@@ -14,6 +14,8 @@ Reading this as: corporate group landing page for learners, families, teams, and
 - Product marks: each group logo has no background plate. White AI Staff and AI Pro marks use a controlled dark contour shadow over desktop photography. On mobile, their supplied black variants appear at the top of the adjacent copy column above the description, keeping the marks crisp without obscuring the smaller photo or crowding the card.
 - Photography: existing service images remain contextual photography and receive a monochrome treatment plus a blue overlay so incidental photo colors do not become UI accents.
 - Principles: semantic inline SVG symbols use one stroke weight and Clevio blue to replace font-dependent text glyphs.
+- Footer links: product cards open their official AI Staff, AI Pro, and Innovator Camp destinations. Social controls use the verified Clevio Instagram, Facebook, LinkedIn, and YouTube accounts plus the TikTok handle from the supplied brand guide; each icon is inline SVG with an accessible label and a 44 px target.
+- Copyright: display the current requested year, 2026.
 - Background: restrained blue-tinted arcs carry over the ecosystem cue from the supplied drafts without adding another accent hue.
 - Layout: desktop keeps the three service choices side by side; mobile changes the cards to compact image-and-copy rows for scanability.
 - Responsive floor: the page has no fixed minimum viewport width. Below 300 px, the header removes its secondary group action and each service card becomes one full-width vertical unit, preventing horizontal clipping in constrained device emulation.
