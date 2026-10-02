@@ -99,8 +99,29 @@ button { font: inherit; }
   .shell { width: min(100% - 32px, 540px); }
   .site-header { height: 78px; }
   .wordmark img { width: 106px; }
-  .primary-nav { position: absolute; inset: 78px 0 auto; flex-direction: column; gap: 4px; padding: 18px 24px 24px; transform: translateY(-130%); border-bottom: 1px solid var(--line); background: var(--white); transition: transform .2s ease; }
-  .primary-nav.is-open { transform: translateY(0); }
+  .primary-nav {
+    position: absolute;
+    inset: 78px 0 auto;
+    flex-direction: column;
+    gap: 4px;
+    padding: 18px 24px 24px;
+    border-bottom: 1px solid var(--line);
+    border-radius: 0 0 16px 16px;
+    background: var(--white);
+    box-shadow: 0 12px 24px rgb(34 54 123 / 12%);
+    clip-path: inset(0 0 100% 0);
+    opacity: 0;
+    pointer-events: none;
+    visibility: hidden;
+    transition: clip-path .28s cubic-bezier(.22, .75, .25, 1), opacity .18s ease-out, visibility 0s linear .28s;
+  }
+  .primary-nav.is-open {
+    clip-path: inset(0 0 0 0);
+    opacity: 1;
+    pointer-events: auto;
+    visibility: visible;
+    transition: clip-path .28s cubic-bezier(.22, .75, .25, 1), opacity .18s ease-out, visibility 0s;
+  }
   .primary-nav a { font-size: 14px; }
   .wordmark, .header-actions { flex-shrink: 0; }
   .header-actions { gap: 8px; }
